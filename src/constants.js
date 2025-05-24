@@ -46,10 +46,10 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/loan_manager.png';
 import csprepLogo from './assets/work_logo/ecommers_app.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
+import movierecLogo from './assets/work_logo/movie_database.png';
 import taskremLogo from './assets/work_logo/jobby_app.png';
 import npmLogo from './assets/work_logo/youtube_clone.png';
-import webverLogo from './assets/work_logo/web_dig.png';
+import webverLogo from './assets/work_logo/ipl_dashboard.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
@@ -61,14 +61,14 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
+      // { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
+      // { name: 'Angular', logo: angularLogo },
+      // { name: 'Redux', logo: reduxLogo },
+      // { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
+      // { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
@@ -76,7 +76,7 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      // { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
@@ -88,11 +88,11 @@ export const SkillsInfo = [
   {
     title: 'Languages',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
+      // { name: 'C', logo: cLogo },
+      // { name: 'C++', logo: cppLogo },
+      // { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
+      // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -214,19 +214,19 @@ export const SkillsInfo = [
       description:
         "A comprehensive loan management system designed to streamline the process of managing loans, payments, and customer information. Built using React.js and Node.js, it offers a user-friendly interface for both customers, verifier and administrators to track loan status, payment history, and account details.",
       image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Node.js", "Express", "MongoDB"],
+      github: "https://github.com/Nageshchintadagit-2024/loan-manager-credit-app",
+      webapp: "https://loan-manager-credit-app.vercel.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "nxtTrendz E-commerce App",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "An e-commerce web application that provides a seamless shopping experience for users. Built with the MERN stack, it features product listings, user authentication, and a secure payment gateway. The app is designed to be responsive and user-friendly, making online shopping easy and efficient.",
       image: csprepLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      github: "https://github.com/Nageshchintadagit-2024/shopify-payment",
+      webapp: "https://ncnxttrendzapp.ccbp.tech/",
     },
     {
       id: 2,
@@ -234,68 +234,67 @@ export const SkillsInfo = [
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
       image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      tags: ["React JS", "API", "HTML", "CSS", "JavaScript", 'flexbox', ],
+      github: "https://github.com/Nageshchintadagit-2024/nagesh-movie-dashboard",
+      webapp: "https://nagesh-movie-dashboard.vercel.app/",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "NxtWatch youtube clone",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "A YouTube clone application that mimics the core functionalities of YouTube, allowing users to watch videos and manage playlists. Built with React.js. it provides a familiar interface with additional features for enhanced user engagement.",
       image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Nageshchintadagit-2024/nageshyoutubeclone",
+      webapp: "https://nageshytubecln.ccbp.tech/",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+      title: "Jobs Application platform",
+      description:"Developed a job listing platform with features like keyword search, salary range filters, and employment type selection and location to enhance job discovery Built multiple interactive pages (Login, Home, Jobs, Job Details) using React components, handling state, props, event listeners, and form inputs. Implemented JWT-based authentication with secure login vAPI calls and maintained user sessions using local storage and protected routes with React Router.",
       image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      tags: ["JavaScript","React JS", "HTML", "CSS", "API", "JWT Authentication"],
+      github: "https://github.com/Nageshchintadagit-2024/jobbyapp",
+      webapp: "https://nageshjobbyappp.ccbp.tech/",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "ipl dashboard",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+        "A dynamic IPL dashboard that provides real-time updates and statistics for IPL matches. Built with React.js and Framer Motion, it offers an engaging user experience with smooth animations and transitions, allowing users to stay updated with the latest match scores, player statistics, and team standings.",
       image: webverLogo,
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      github: "https://github.com/Nageshchintadagit-2024/ipl-dashboard",
+      webapp: "https://nageshiplbanner.ccbp.tech/",
     },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+    // {
+    //   id: 6,
+    //   title: "Coding Master",
+    //   description:
+    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+    //   image: cmLogo,
+    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+    //   github: "https://codingmasterweb.in/",
+    //   webapp: "https://codingmasterweb.in/",
+    // },
+    // {
+    //   id: 7,
+    //   title: "Image Search App",
+    //   description:
+    //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+    //   image: imagesearchLogo,
+    //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    //   github: "https://github.com/codingmastr/Image-Search-App",
+    //   webapp: "https://imagsearch.netlify.app/",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Image Background Remover",
+    //   description:
+    //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+    //   image: removebgLogo,
+    //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
+    //   github: "https://github.com/codingmastr/Image-Background-Remover",
+    //   webapp: "https://removeyourbg.netlify.app/",
+    // },
   ];  
